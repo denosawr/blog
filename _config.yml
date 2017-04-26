@@ -6,15 +6,15 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            otp
+title:            denosawr
 tagline:          'something'
 description:      'a blog where I ramble about all sorts of things.'
-url:              https://olliethepikachu.github.io
+url:              https://denosawr.github.io
 baseurl:          /
 
 author:
-  name:           'olliethepikachu'
-  url:            https://github.com/ollietehpikachu
+  name:           'denosawr'
+  url:            https://github.com/denosawr
 
 paginate:         5
 
@@ -22,4 +22,4 @@ paginate:         5
 version:          1
 
 github:
-  repo:           https://github.com/olliethepikachu/olliethepikachu.github.io
+  repo:           https://github.com/denosawr/denosawr.github.io
