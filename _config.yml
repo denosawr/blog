@@ -6,14 +6,14 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            denosawr
+title:            deno<br/>sawr
 tagline:          'something'
 description:      'a blog where I ramble about all sorts of things.'
 url:              https://denosawr.github.io
 baseurl:          /
 
 author:
-  name:           'denosawr'
+  name:           'deno'
   url:            https://github.com/denosawr
 
 paginate:         5
