@@ -22,6 +22,15 @@
       {% endfor %}
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
     </nav>
+    
+    <nav class="sidebar-nav">
+        {% for post in site.posts %}
+            <!--"title": "{{ post.title | xml_escape }}",
+            "url": "{{ site.url }}{{ post.url }}",
+            "date": "{{ post.date | date_to_xmlschema }}"{% unless forloop.last %},{% endunless %} -->
+            <a class="sidebar-nav-item" href="{{ site.url }}{{ post.url }}">{{ post.title | xml_escape }}</a>
+        {% endfor %}
+    </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
