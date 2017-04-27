@@ -6,7 +6,7 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            deno<br/>sawr
+title:            denosawr
 tagline:          'something'
 description:      'a blog where I ramble about all sorts of things.'
 url:              https://denosawr.github.io
