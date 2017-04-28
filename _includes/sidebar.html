@@ -32,7 +32,7 @@
             <!--"title": "{{ post.title | xml_escape }}",
             "url": "{{ site.url }}{{ post.url }}",
             "date": "{{ post.date | date_to_xmlschema }}"{% unless forloop.last %},{% endunless %} -->
-            <a class="sidebar-nav-item recent-posts" href="{{ site.url }}{{ post.url }}">{{ post.title | xml_escape }}</a>
+            <a class="sidebar-nav-item recent-posts" href="{{ site.url }}{{ post.url }}">  {{ post.title | xml_escape }}</a>
         {% endfor %}
     </nav>
 
