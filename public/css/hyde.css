@@ -98,6 +98,9 @@ a.sidebar-nav-item:focus {
 .sidebar-nav-item.active {
   font-weight: bold;
 }
+.recent-posts {
+  font-size: 12px;
+}
 
 /* Sticky sidebar
  *
