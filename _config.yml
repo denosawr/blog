@@ -10,7 +10,7 @@ title:            denosawr
 tagline:          'something'
 description:      'a blog where I ramble about all sorts of things.'
 url:              https://denosawr.github.io/blog
-baseurl:          /blog/
+baseurl:          /blog
 
 author:
   name:           'deno'
