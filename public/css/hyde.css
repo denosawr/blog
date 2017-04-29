@@ -100,6 +100,7 @@ a.sidebar-nav-item:focus {
 }
 .recent-posts {
   font-size: 12px;
+  color: rgba(255,255,255,.5) !important;
 }
 
 /* Sticky sidebar
