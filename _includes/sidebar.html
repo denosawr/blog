@@ -25,7 +25,7 @@
     
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item" href="{{ site.url }}{{ site.posts.first.url }}">Recent Posts</a>
-        {% for post in site.posts limit:10 %}
+        {% for post in site.posts limit:5 %}
             <!--"title": "{{ post.title | xml_escape }}",
             "url": "{{ site.url }}{{ post.url }}",
             "date": "{{ post.date | date_to_xmlschema }}"{% unless forloop.last %},{% endunless %} -->
