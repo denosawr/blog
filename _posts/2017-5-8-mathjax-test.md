@@ -1,1 +1,3 @@
-$x+y=3$
+Basic inline equations: $x+y=3$
+
+So now what?
